@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site site="http://iptv.kartina.tv"
+	plugin=""
+	identifier="com.plexapp.plugins.kartinatv"
+	initialState="playing" 
+	version="1.0">
+	<run script="
+	document.getElementById('code_login').value='${username}';
+	document.getElementById('code_pass').value='${password}';
+	document.getElementById('act').submit();
+	" />
+	<visit url="${url}" />
+</site>

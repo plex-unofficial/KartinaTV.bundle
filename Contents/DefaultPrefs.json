@@ -1,0 +1,45 @@
+[
+	{
+        "id": "username",
+        "type": "text",
+        "label": "Пользователь",
+        "default": ""
+    },
+    {
+        "id": "password",
+        "type": "text",
+        "label": "Пароль",
+        "default": "",
+        "option": "hidden"
+    },
+	{
+        "id": "timeshift",
+        "type": "text",
+        "label": "Сдвиг во времени (МСК ± часы)",
+        "default": "0"
+    },
+	{
+        "id": "liveshift",
+        "type": "text",
+        "label": "Сдвиг прямого эфира (минут назад)",
+        "default": "15"
+    },
+	{
+        "id": "itemsperpage",
+        "type": "text",
+        "label": "Кол-во фильмов на странице",
+        "default": "40"
+    },
+	{
+        "id": "updates",
+        "type": "bool",
+        "label": "Прверять обновления",
+        "default": "True"
+    },
+	{
+        "id": "showunaialable",
+        "type": "bool",
+        "label": "Отображать недоступные функции",
+        "default": "True"
+    }
+]
